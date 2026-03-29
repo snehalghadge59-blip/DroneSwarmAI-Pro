@@ -1,0 +1,24 @@
+# ── Core simulation ──────────────────────────────────────────────────────
+numpy>=1.24.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+
+# ── Web backend ───────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.0.0
+
+# ── Streamlit dashboard ───────────────────────────────────────────────────
+streamlit>=1.32.0
+pandas>=2.0.0
+
+# ── Deep RL (optional but recommended) ───────────────────────────────────
+# torch>=2.1.0         # Uncomment to enable DQN training
+# torchvision>=0.16.0  # Optional
+
+# ── Utilities ─────────────────────────────────────────────────────────────
+pillow>=10.0.0        # GIF export
+
+# ── ROS2 (optional — install via apt, not pip) ────────────────────────────
+# rclpy                # sudo apt install ros-humble-rclpy
